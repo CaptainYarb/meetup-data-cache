@@ -1,0 +1,14 @@
+{
+	"api": {
+		"key": "xxx"
+	},
+	"pro": {
+		"urlname": "techlahoma"
+	},
+	"defaultCache": 43200,
+	"trim": {
+		"getPROGroups": ["id", "name", "description", "city", "state", "urlname", "founded_date", "member_count", "past_events", "upcoming_events", "last_event", "next_event", "rsvps_per_event", "repeat_rsvpers", "status"],
+		"getEvents": ["venue", "time", "utc_offset", "visibility", "announced", "event_url", "name", "description", "created", "maybe_rsvp_count", "yes_rsvp_count", "status"]
+	},
+	"blacklistedGroups": [24352721]
+}

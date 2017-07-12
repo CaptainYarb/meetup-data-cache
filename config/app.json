@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		"appframe-redis",
+		"appframe-express"
+	],
+	"autoload": [
+		{
+			"name": "libraries",
+			"folder": "/libs"
+		},
+		{
+			"name": "controllers",
+			"folder": "/controllers"
+		}
+	],
+	"codes": "/config/codes",
+	"debug": true
+}

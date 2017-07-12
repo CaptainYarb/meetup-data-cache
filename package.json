@@ -1,0 +1,20 @@
+{
+  "name": "meetup-data",
+  "version": "1.0.0",
+  "description": "Simple cache API for Techlahoma Meetup events",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Yarbor",
+  "license": "MIT",
+  "dependencies": {
+    "apicache": "^0.8.7",
+    "appframe": "^0.5.4",
+    "appframe-express": "^0.4.1",
+    "appframe-redis": "^0.1.7",
+    "async": "^2.5.0",
+    "lodash": "^4.17.4",
+    "meetup-api": "^1.4.21"
+  }
+}
